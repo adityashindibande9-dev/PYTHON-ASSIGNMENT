@@ -1,0 +1,47 @@
+lst = [ 30, 20, 50, 40, 10] print(lst)
+
+# Accesing elements in list 
+print(lst[0]) 
+print(lst[-1])
+
+# Slicing elemints in list 
+print(lst[0:4]) 
+print(lst[3:5])
+
+# Updating or Modifing list 
+lst[0] = 80
+print(lst)
+
+# Adding elements in list
+lst.append(100) 
+print(1st)
+
+#It will add where we give index
+lst.insert(1, 100)
+print(1st)
+
+# Removing elements from List
+lst.remove(100) 
+print(lst)
+
+lst.pop(1)
+print(lst) 
+
+# lst.clear()
+print(lst)
+
+#Searching and Sorting in List
+
+1st.sort() 
+print(lst)
+
+#reverse
+1st.reverse()
+print(lst)
+
+#reversing the list another method
+print(lst[::-1]) #reversing the list another method
+
+# Searching elements in the List
+
+print(lst.index(80)) 

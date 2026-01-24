@@ -1,0 +1,29 @@
+dict = {"Tata": "safari", "Kia": seltos, "honda": city) print(dict)
+
+# Accesing Dictionary
+print(dict ["tata"]) 
+
+#updating
+dict ["Renault"] = "kiger"
+print("updated Dictionary", dict)
+
+# Removing elements from Dictionary
+dict.pop("renualt")
+print(dict)
+
+dict.popitem() 
+print(dict)
+
+del dict ["honda"]
+print(dict)
+
+del.clear()
+print(dict)
+
+#merging
+dict2 = {"Hyundai": "Creta", "Maruti": "Brezza", "Mahindra": "XUV700"}
+print("Dictionary 2:", dict2)
+
+# Merging dictionaries
+merged_dict = dict1 | dict2
+print(merged_dict)
